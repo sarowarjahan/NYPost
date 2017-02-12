@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android test suite on Android Phone">
+
+    <parameter name="OS" value="Android"/>
+    <parameter name="appType" value="Phone"/>
+    <parameter name="deviceType" value="RealDevice"/>
+    <parameter name="deviceName" value="Nexus5"/>
+    <parameter name="version" value="5.1"/>
+
+    <test name="Go to Home page" preserve-order="true">
+        <classes>
+            <class name="AllMenus.TestAllMenus"/>
+            <class name="SearchItems.TestSearchByKeyword"/>
+            <class name="SearchItems.TestSearchByDataProvider"/>
+            <class name="TestTopNews.TestTopNews"/>
+            <class name="TestStoriesPage.TestStories"/>
+            <class name="TestNewsPage.TestNews"/>
+            <class name="TestSavedArticlesPage.TestSavedArticles"/>
+
+        </classes>
+    </test>
+
+    <!-- Test1 specific params are defined below this-->
+    <parameter name="" value=""/>
+</suite>

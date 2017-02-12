@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android/Android.iml" filepath="$PROJECT_DIR$/Android/Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOS/IOS.iml" filepath="$PROJECT_DIR$/IOS/IOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MobileApps-Automation.iml" filepath="$PROJECT_DIR$/MobileApps-Automation.iml" />
+    </modules>
+  </component>
+</project>
